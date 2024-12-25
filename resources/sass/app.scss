@@ -1,1 +1,8 @@
-@import 'bootstrap/scss/bootstrap';
+@use 'bootstrap/scss/bootstrap' as *;
+
+header.bg-welcome {
+    background-image: url('/public/images/welcome.png');  // Ganti dengan path gambar yang sesuai
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
