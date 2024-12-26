@@ -24,7 +24,7 @@
             <!-- Card Body (Over Image) -->
             <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
                 <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
-                <a href="/history" class="btn btn-navy btn-sm">Learn More</a>
+                <a href="/history" class="btn btn-navy btn-sm">See Tech</a>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
         <div class="card position-relative overflow-hidden">
             <!-- Label -->
             <div class="card-label position-absolute top-0 start-0 bg-navy text-white px-3 py-1">
-            Tech
+            History
             </div>
             <!-- Clickable Image -->
             <a href="/history" class="d-block">
@@ -43,7 +43,7 @@
             <!-- Card Body (Over Image) -->
             <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
                 <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
-                <a href="/history" class="btn btn-navy btn-sm">Learn More</a>
+                <a href="/history" class="btn btn-navy btn-sm">See History</a>
             </div>
         </div>
     </div>
