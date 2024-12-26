@@ -12,32 +12,56 @@
 
 <div class="row mt-4">
     <div class="col-md-4">
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Feature 1">
-            <div class="card-body">
-                <h5 class="card-title">Feature 1</h5>
-                <p class="card-text">Description for feature 1. This could be a quick overview of your services.</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
+        <div class="card position-relative overflow-hidden">
+            <!-- Label -->
+            <div class="card-label position-absolute top-0 start-0 bg-navy text-white px-3 py-1">
+            Tech
+            </div>
+            <!-- Clickable Image -->
+            <a href="/history" class="d-block">
+                <img src="{{ asset('images/tech.png') }}" class="card-img-top hover-zoom" alt="Feature Tech">
+            </a>
+            <!-- Card Body (Over Image) -->
+            <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
+                <a href="/history" class="btn btn-navy btn-sm">Learn More</a>
             </div>
         </div>
     </div>
+
+
     <div class="col-md-4">
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Feature 2">
-            <div class="card-body">
-                <h5 class="card-title">Feature 2</h5>
-                <p class="card-text">Description for feature 2. This could be an introduction to your projects.</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
+        <div class="card position-relative overflow-hidden">
+            <!-- Label -->
+            <div class="card-label position-absolute top-0 start-0 bg-navy text-white px-3 py-1">
+            Tech
+            </div>
+            <!-- Clickable Image -->
+            <a href="/history" class="d-block">
+                <img src="{{ asset('images/tech.png') }}" class="card-img-top hover-zoom" alt="Feature Tech">
+            </a>
+            <!-- Card Body (Over Image) -->
+            <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
+                <a href="/history" class="btn btn-navy btn-sm">Learn More</a>
             </div>
         </div>
     </div>
+
     <div class="col-md-4">
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Feature 3">
-            <div class="card-body">
-                <h5 class="card-title">Feature 3</h5>
-                <p class="card-text">Description for feature 3. This could be testimonials or highlights.</p>
-                <a href="#" class="btn btn-dark">Learn More</a>
+        <div class="card position-relative overflow-hidden">
+            <!-- Label -->
+            <div class="card-label position-absolute top-0 start-0 bg-navy text-white px-3 py-1">
+            Tech
+            </div>
+            <!-- Clickable Image -->
+            <a href="/history" class="d-block">
+                <img src="{{ asset('images/tech.png') }}" class="card-img-top hover-zoom" alt="Feature Tech">
+            </a>
+            <!-- Card Body (Over Image) -->
+            <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
+                <a href="/history" class="btn btn-navy btn-sm">Learn More</a>
             </div>
         </div>
     </div>

@@ -1,8 +1,45 @@
 @use 'bootstrap/scss/bootstrap' as *;
 
+// Hover effect for card images
+.card a img {
+    transition: transform 0.3s ease; // Tambahkan efek transisi halus
+}
+
+.card a img:hover {
+    transform: scale(1.05); // Membesarkan gambar sedikit saat di-hover
+}
+
+
 header.bg-welcome {
     background-image: url('/public/images/welcome.png');  // Ganti dengan path gambar yang sesuai
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+body {
+    padding-top: 32px; /* Sesuaikan nilai ini dengan tinggi navbar Anda */
+}
+
+
+$theme-colors: (
+  "primary": #0d6efd,
+  "secondary": #6c757d,
+  "success": #198754,
+  "info": #0dcaf0,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #212529,
+  "navy": #001f3f // Menambahkan warna navy
+);
+
+.bg-navy {
+    background-color: #001f3f !important; // Menetapkan warna navy secara langsung
+}
+.card-label {
+    z-index: 2;  // Pastikan label berada di atas gambar
+}
+
+// Recompile Bootstrap with custom colors
+@import 'bootstrap/scss/bootstrap';
