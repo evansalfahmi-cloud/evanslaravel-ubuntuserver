@@ -38,7 +38,7 @@
             </div>
             <!-- Clickable Image -->
             <a href="/history" class="d-block">
-                <img src="{{ asset('images/tech.png') }}" class="card-img-top hover-zoom" alt="Feature Tech">
+                <img src="{{ asset('images/history.png') }}" class="card-img-top hover-zoom" alt="History">
             </a>
             <!-- Card Body (Over Image) -->
             <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
