@@ -52,16 +52,16 @@
         <div class="card position-relative overflow-hidden">
             <!-- Label -->
             <div class="card-label position-absolute top-0 start-0 bg-navy text-white px-3 py-1">
-            Tech
+            Other
             </div>
             <!-- Clickable Image -->
             <a href="/history" class="d-block">
-                <img src="{{ asset('images/tech.png') }}" class="card-img-top hover-zoom" alt="Feature Tech">
+                <img src="{{ asset('images/other.png') }}" class="card-img-top hover-zoom" alt="Feature Tech">
             </a>
             <!-- Card Body (Over Image) -->
             <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
                 <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
-                <a href="/history" class="btn btn-navy btn-sm">Learn More</a>
+                <a href="/history" class="btn btn-navy btn-sm">See Other</a>
             </div>
         </div>
     </div>
