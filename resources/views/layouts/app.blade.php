@@ -11,11 +11,12 @@
 </head>
 <body>
     @include('partials.header')
-
-    <main class="container my-5">
+<div class="d-flex flex-column min-vh-100">
+    <main class="flex-grow-1 container my-5">
         @yield('content')
     </main>
 
     @include('partials.footer')
 </body>
+</div>
 </html>
