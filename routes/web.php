@@ -14,3 +14,6 @@ Route::get('/tech', function () {
     return view('tech'); // Mengarahkan ke tech.blade.php
 });
 
+Route::get('/history', function () {
+    return view('history');
+});
