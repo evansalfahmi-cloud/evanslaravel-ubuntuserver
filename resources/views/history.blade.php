@@ -52,5 +52,19 @@
             <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
         </div>
     </div>
+
+    <!-- Artikel Keempat -->
+    <div class="row mb-4">
+        <div class="col-md-6 order-md-2">
+            <img src="{{ asset('images/history4.jpg') }}" class="img-fluid" alt="History Image 4">
+        </div>
+        <div class="col-md-6 order-md-1">
+            <h3>Penyebaran Agama dan Budaya di Dunia</h3>
+            <p>
+                Agama dan budaya telah memainkan peran penting dalam sejarah peradaban dunia. Penyebaran agama-agama besar seperti Kristen, Islam, dan Buddha...
+            </p>
+            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+        </div>
+    </div>
 </div>
 @endsection
