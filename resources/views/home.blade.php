@@ -5,7 +5,7 @@
 @section('content')
 <header class="bg-welcome text-white text-center py-5">
     <div class="container">
-        <h1>Welcome to Literasi Sipil</h1>
+        <h1>Welcome to Literatur.com</h1>
         <p class="lead">Knowledge for Positive Change</p>
     </div>
 </header>
@@ -23,7 +23,7 @@
             </a>
             <!-- Card Body (Over Image) -->
             <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
-                <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
+                <p class="card-text">"Explore the evolution of technology and its impact on our lives."</p>
                 <a href="/tech" class="btn btn-navy btn-sm">See Tech News</a>
 
             </div>
@@ -43,7 +43,7 @@
             </a>
             <!-- Card Body (Over Image) -->
             <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
-                <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
+                <p class="card-text">"Delving into the Journey of History That Shaped Our World"</p>
                 <a href="/history" class="btn btn-navy btn-sm">See History</a>
             </div>
         </div>
@@ -61,7 +61,7 @@
             </a>
             <!-- Card Body (Over Image) -->
             <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
-                <p class="card-text">Explore the evolution of technology and its impact on our lives.</p>
+                <p class="card-text">"Many other things can provide important information here."</p>
                 <a href="/history" class="btn btn-navy btn-sm">See Other</a>
             </div>
         </div>
