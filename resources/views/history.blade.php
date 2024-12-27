@@ -3,7 +3,7 @@
 @section('title', 'History - Evans Project')
 
 @section('content')
-<header class="bg-primary text-white text-center py-5">
+<header class="bg-navy text-white text-center py-5">
     <div class="container">
         <h1>Sejarah Peradaban Dunia</h1>
         <p class="lead">Menyelami Perjalanan Sejarah yang Membentuk Dunia Kita</p>
@@ -21,7 +21,7 @@
             <p>
                 Sejarah manusia dimulai dari zaman prasejarah, di mana peradaban pertama kali berkembang di lembah sungai besar seperti Mesopotamia, Mesir, dan Indus...
             </p>
-            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="#" class="btn btn-navy">Baca Selengkapnya</a>
         </div>
     </div>
 
@@ -35,7 +35,7 @@
             <p>
                 Peradaban Romawi dikenal dengan kemajuan dalam berbagai aspek seperti hukum, teknologi, dan seni. Mereka meninggalkan jejak yang kuat dalam budaya Barat...
             </p>
-            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="#" class="btn btn-navy">Baca Selengkapnya</a>
         </div>
     </div>
 
@@ -49,7 +49,7 @@
             <p>
                 Pada abad ke-18, Revolusi Industri membawa perubahan besar dalam kehidupan manusia, termasuk kemajuan teknologi, perubahan sosial, dan ekonomi...
             </p>
-            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="#" class="btn btn-navy">Baca Selengkapnya</a>
         </div>
     </div>
 
@@ -63,7 +63,7 @@
             <p>
                 Agama dan budaya telah memainkan peran penting dalam sejarah peradaban dunia. Penyebaran agama-agama besar seperti Kristen, Islam, dan Buddha...
             </p>
-            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="#" class="btn btn-navy">Baca Selengkapnya</a>
         </div>
     </div>
 </div>

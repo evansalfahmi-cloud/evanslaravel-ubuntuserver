@@ -9,12 +9,24 @@
     transform: scale(1.05); // Membesarkan gambar sedikit saat di-hover
 }
 
+@keyframes moveBackground {
+    0% {
+        background-position: center top; /* Gambar mulai dari atas */
+    }
+    50% {
+        background-position: center bottom; /* Gambar bergerak ke bawah */
+    }
+    100% {
+        background-position: center top; /* Gambar kembali ke atas */
+    }
+}
 
 header.bg-welcome {
-    background-image: url('/public/images/welcome.png');  // Ganti dengan path gambar yang sesuai
+    background-image: url('/public/images/welcome.png'); // Ganti dengan path gambar yang sesuai
     background-size: cover;
-    background-position: center;
+    background-position: center top; // Posisi awal gambar
     background-repeat: no-repeat;
+    animation: moveBackground 30s linear infinite; /* Menambahkan animasi bergerak berulang */
 }
 
 body {
